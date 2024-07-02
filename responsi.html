@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contacts</a>
+            <a href="">Info</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="rancong.jpeg">
+                <div class="content">
+                    <div class="author">SENJATA KHAS PROVINSI</div>
+                    <div class="title">NANGROE ACEH DAARUSSALAM</div>
+                    <div class="RANCONG">ANIMAL</div>
+                    <div class="des">
+                           Rencong adalah senjata tradisional milik masyarakat Aceh<br> yang merupakan simbol identitas 
+                            diri, keberanian dan ketangguhan suku aceh.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="sumut.png">
+                <div class="content">
+                    <div class="author">SENJATA KHAS PROVINSI</div>
+                    <div class="title">SUMATRA UTARA</div>
+                    <div class="topic">PISO GAJA DOMPAK</div>
+                    <div class="des">
+                        Piso Gaja Dompak berasal dari dua kata, <br>yaitu piso yang artinya pisau, <br>dan gaja dompak yang mencerminkan bentuk ukirannya berpenampang gajah.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="karambit.jpg">
+                <div class="content">
+                    <div class="author">SENJATA KHAS PROVINSI</div>
+                    <div class="title">SUMATRA BARAT</div>
+                    <div class="topic">KARAMBIT</div>
+                    <div class="des">
+                        Kerambit merupakan senjata tradisional berupa<br> pisau kecil melengkung yang sangat tajam.<br> Gagang Kerambit biasanya terbuat <br>dari tanduk binatang, kayu yang keras, atau dari gading
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bangka.jpg">
+                <div class="content">
+                    <div class="author">SENJATA KHAS PROVINSI</div>
+                    <div class="title">BANGKA BELITUNG</div>
+                    <div class="topic">PARANG BADAU</div>
+                    <div class="des">
+                        Senjata tradisional Bangka Belitung yang pertama ada Parang Badau.<br> Senjata ini  pertama kali dibuat di Kerajaan Badau <br>melalui pengaruh Kerajaan Majapahit. <br>Sebab Bangka Belitung dahulunya terdiri atas berbagai kerajaan,<br> yang tertua Kerajaan Badau sekitar abad ke-15 masehi.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="rancong.jpeg">
+                <div class="content">
+                    <div class="title">
+                        rancong
+                    </div>
+                    <div class="description">
+                        ACEH
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="sumut.png">
+                <div class="content">
+                    <div class="title">
+                        piso gaja dompak
+                    </div>
+                    <div class="description">
+                        MEDAN
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="karambit.jpg">
+                <div class="content">
+                    <div class="title">
+                        karambit
+                    </div>
+                    <div class="description">
+                        PADANG
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bangka.jpg">
+                <div class="content">
+                    <div class="title">
+                        parang badau
+                    </div>
+                    <div class="description">
+                        BANGKA BELITUNG
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <section id="tiketpemesanan">
+        <h1>tiket pemesanan</h1>
+        <div class="form">
+            <form id="registrationForm">
+                <label for="Nama">Nama :</label>
+                <input type="text" id="nama" nama="nama" placeholder="masukkan nama" required /><br />
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required /><br />
+                <label for="nohp">No HP :</label>
+                <input type="tel" id="nohp" name="nohp" required /><br />
+                <label for="alamat">Alamat :</label>
+                <input type="text" id="alamat" name="alamat" required /><br />
+                <label for="noid">No Id</label> (SIM/KTP) :</label>
+                <input type="number" id="noid" name="noid" required /><br />
+                <button type="submit">Submit</button>
+              </form>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
